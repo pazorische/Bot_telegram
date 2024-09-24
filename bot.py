@@ -3,8 +3,8 @@ import requests
 import time
 from telebot import types
 
-bot = telebot.TeleBot('6877020381:AAFH_HzFqIEYu0hDsXZDFZCVnd521za4ZlU')
-TELEGRAM_BOT_TOKEN = '6877020381:AAFH_HzFqIEYu0hDsXZDFZCVnd521za4ZlU'
+bot = telebot.TeleBot('')
+TELEGRAM_BOT_TOKEN = ''
 
 
 @bot.message_handler(commands=['start'])
